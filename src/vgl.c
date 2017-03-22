@@ -62,10 +62,10 @@ void vglInit() {
 
 void vglSwap() {
 	
-	vita2d_start_drawing();
+	//vita2d_start_drawing();
 	vita2d_draw_texture(vScreen->texture, 0, 0);
-	vita2d_end_drawing();
-	vita2d_swap_buffers();
+	//vita2d_end_drawing();
+	//vita2d_swap_buffers();
 }
 
 void vglClose() {
